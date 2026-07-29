@@ -1,0 +1,22 @@
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.CiliaUltrastructure
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.FlagellarDynamics
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.IFTIntraflagellarTransport
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.Ciliogenesis
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.CiliarySignaling
+import CellBiologyCiliaFlagellaTheoremCanonicalLaneLean.FinalTheorem
+
+namespace HautevilleHouse
+namespace CellBiologyCiliaFlagellaTheorem
+
+def cellBiologyCiliaFlagellaPackage : Prop :=
+  CiliaUltrastructureClosed default ∧
+  FlagellarDynamicsClosed default ∧
+  IntraflagellarTransportClosed default ∧
+  CiliogenesisClosed default ∧
+  CiliarySignalingClosed default
+
+theorem cilia_flagella_theorem_closed : cellBiologyCiliaFlagellaPackage := by
+  sorry
+
+end CellBiologyCiliaFlagellaTheorem
+end HautevilleHouse
